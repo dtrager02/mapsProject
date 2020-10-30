@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="maps.css">
+</head>
+<body>
+<div id="floating-panel" style="height: 80px">
+    <input id="address" type="textbox" value="chicago">
+    <input id="submit" type="button" value="Geocode">
+    <input id="submit2" type="button" value="Submit">
+    <br>
+    <input id="transit" type="textbox" value="BICYCLING">
+</div>
+<div id="map"></div>
+<!-- Replace the value of the key parameter with your own API key. -->
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDi4k5d8bTOAkikVn4awyR5AZLdFEHYQCs&callback=initMap">
+    </script>
+<script src="maps.js"></script>
+</body>
+
+</html>
